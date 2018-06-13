@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../assets/images/pool_table/pool_table.png")
+
+}
+
+.title {
+    background: orangered;
+    width: max-content;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+#score {
+    color: whitesmoke;
+}
+#question {
+    color: whitesmoke;
+}
+
+.question {
+    background: blueviolet;
+    width: max-content;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+ul {
+    padding: 0;
+
+}
+.answers {
+    width: max-content;
+    list-style-type: none;
+    background: yellow;
+    padding: .5em 1em .5em 1em;
+    border: .5px solid black;
+    margin: 1em auto 1em auto;
+}
+.answers:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.centered {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
